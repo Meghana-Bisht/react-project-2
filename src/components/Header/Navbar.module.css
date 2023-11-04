@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  padding: 0 8px;
+  align-items: center;
+}
+.navbar .logo img {
+  margin-left: 4rem;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 4rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: 0.5s ease;
+}
+.navbar a:hover {
+  color: rgb(151, 222, 246);
+}

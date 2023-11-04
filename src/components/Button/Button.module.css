@@ -1,0 +1,42 @@
+.primary_btn {
+  padding: 18px 10px;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  min-width: 220px;
+  min-height: 44px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid rgb(17, 17, 17);
+  transition: 0.5s ease;
+}
+.primary_btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(17, 17, 17);
+}
+.secondary_btn {
+  padding: 18px 10px;
+  background-color: #fff;
+  color: rgb(17, 17, 17);
+  border: 1px solid rgb(17, 17, 17);
+  min-width: 472px;
+  min-height: 44px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.secondary_btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(17, 17, 17);
+}
